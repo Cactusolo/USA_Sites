@@ -1,0 +1,7 @@
+pxtrt -t /ufrc/soltis/cactus/Dimension/Community_Opentree/Stephen_Brown_tree/vas_opentree_9.1.tre -f Opentree_query/White_Mountain_justids.ottids
+pxcltr -l -t ./tree/White_Mountain_ottid_nw_rename.tre
+pxtrt -t /ufrc/soltis/cactus/Dimension/Community_Opentree/Stephen_Brown_tree/vas_opentree_9.1.tre -f Opentree_query/White_Mountain_justids.ottids
+pxcltr -l -t ./tree/White_Mountain_ottid_nw_rename.tre
+pxtrt -t /ufrc/soltis/cactus/Dimension/Community_Opentree/Stephen_Brown_tree/ALLOTB_ottid.tre -f Opentr_BR_query/White_Mountain_justids.ottids
+pxcltr -t ./Opentr_BR_query/White_Mountain_ottid.tre
+pxcltr

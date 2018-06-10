@@ -1,0 +1,6 @@
+pxtrt -t /ufrc/soltis/cactus/Dimension/Community_Opentree/Stephen_Brown_tree/vas_opentree_9.1.tre -f Coweeta_justids.ottids
+pxcltr -t Coweeta_ottid_0607.tre
+pxtrt -t /ufrc/soltis/cactus/Dimension/Community_Opentree/Stephen_Brown_tree/ALLOTB_ottid.tre -f Coweeta_justids.ottids
+pxcltr -t Coweeta_BR_ottid_0607.tre
+pxcltr
+pxcltr
