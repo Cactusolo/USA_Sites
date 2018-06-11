@@ -1,6 +1,4 @@
 ott512702 Actaea_racemosa
 ott512702 Cimicifuga_racemosa
-ott257170 Uvularia_perfoliata
-ott257170 Uvularia_pudica
 ott295613 Viola_papilionacea_var._priceana
 ott295613 Viola_sororia

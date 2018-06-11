@@ -107,8 +107,8 @@ Org_query=$(wc -l ../species_list/${Site}.csv|cut -f1 -d' ')
 nw_labels -I ../tree/${Site}_speciesname_0607.tre|sort|uniq >${Site}_speciesname_0607.txt
 nw_labels -I ../tree/${Site}_speciesname_BR_0607.tre|sort|uniq >${Site}_speciesname_BR_0607.txt
 
-Syn_tip=$(wc -l ${Site}_speciesname_0607.txt|cut -f1 -d' ')
-BR_tip=$(wc -l ${Site}_speciesname_BR_0607.txt|cut -f1 -d' ')
+Syn_tip=$(nw_labels -I ../tree/${Site}_speciesname.tre |wc -l)
+BR_tip=$(nw_labels -I ../tree/${Site}_BR_speciesname.tre |wc -l)
 
 sort ${Site}_speciesname_0607.txt ${Site}_speciesname_BR_0607.txt|uniq -d >${Site}_good_list.txt
 good=$(wc -l ${Site}_good_list.txt|cut -f1 -d' ')
